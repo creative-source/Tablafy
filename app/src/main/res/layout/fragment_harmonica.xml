@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jantzapps.jantz.tablafy.GuitarFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Harmonica Tab"/>
+    <TextView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Harmonica tab is one of the most simple forms of tablature. Harmonica tab is represented as only 2 horizontal lines. Each line represents either a blow or a draw of air through the harmonica, while each number determines the hole the players blows or draws air through. Below is an overview of how harmonica tab is represented in Tablafy."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/harmonica_tab_demo1"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Standard harmonica tab is in the form of 2 horizontal lines that correspond to a blow or a draw. At the beginning of each of these lines is a letter - B or D. These letters mean blow and draw, respectively."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/harmonica_tab_demo2"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Along the horizontal lines are numbers that represent the harmonica hole through which a player blows or draws air."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

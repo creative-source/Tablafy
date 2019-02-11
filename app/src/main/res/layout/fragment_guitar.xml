@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jantzapps.jantz.tablafy.GuitarFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Guitar Tab"/>
+    <TextView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:text="Guitar tab is perhaps the most popular form of musical tablature and it's used by both beginner and advanced guitar players. Guitar tab is also one of the most straightforward forms of tab. Each line in guitar tab represents a string on the guitar, while each number on a line represents the fret. Below is an overview of how guitar tab is represented in Tablafy."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/guitar_tab_demo1"/>
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:text="Standard guitar tab is in the form of 6 horizontal lines that correspond to each of the 6 standard guitar strings. The lines go in order from highest or smallest string - at the top, to lowest or largest string at the bottom. At the beginning of each of these lines is a letter that represents the note of the open or un-fretted string. These letters are usually the only actual notes used in guitar tab."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/guitar_tab_demo2"/>
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:text="Along the horizontal lines are numbers that represent the frets that are pressed down on each string. If the number on the line is zero, then that string is played without pressing down on a fret."/>
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:text="Guitar chords can also be represented with guitar tab. In Tablafy guitar chords are shown as numbers that are aligned vertically, directly above or below one another. Chords can also be represnted as the written abrieviations above the guitar tab."/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

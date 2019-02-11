@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jantzapps.jantz.tablafy.GuitarFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Bass Tab"/>
+    <TextView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Bass tab is much like guitar tab. It is used by both beginner and advanced players as well, and is just as straightforward. In fact, Bass tab is structured in the same way as guitar tab. Like guitar tab each line in bass tab represents a string on the bass, while each number on a line represents the fret. Below is an overview of how bass tab is represented in Tablafy."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/bass_tab_demo1"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Standard bass tab is in the form of 4 horizontal lines that correspond to each of the 4 standard bass strings. The lines go in order from highest or smallest string - at the top, to lowest or largest string at the bottom. At the beginning of each of these lines is a letter that represents the note of the open or un-fretted string. These letters are usually the only actual notes used in bass tab."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/bass_tab_demo2"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Along the horizontal lines are numbers that represent the frets that are pressed down on each string. If the number on the line is zero, then that string is played without pressing down on a fret."/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Bass chords can also be represented with bass tab. In Tablafy bass chords are shown as numbers that are aligned vertically, directly above or below one another. Chords can also be represnted as the written abrieviations above the bass tab."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

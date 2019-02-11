@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jantzapps.jantz.tablafy.GuitarFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Ukulele Tab"/>
+    <TextView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Ukulele tab is much like guitar tab and bass tab. It is used by both beginner and advanced players as well, and is just as straightforward. In fact, ukulele tab is structured in the same way as guitar and bass tab. Like those tabs each line in ukulele tab represents a string on the ukulele, while each number on a line represents the fret. Below is an overview of how ukulele tab is represented in Tablafy."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/ukulele_tab_demo1"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Standard ukulele tab is in the form of 4 horizontal lines that correspond to each of the 4 standard ukulele strings. The main difference in ukulele tab is the tuning. The standard ukulele tuning is not highest to lowest pitch like the guitar and bass. If you hold a ukulele strung and tuned for your dominant hand in the playing position, then turn the strings toward yourself, this will be the same string to line order in the ukulele tab. At the beginning of each of these lines is a letter that represents the note of the open or un-fretted string. These letters are usually the only actual notes used in ukulele tab."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/ukulele_tab_demo2"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Like guitar and bass tab, the numbers on the horiontal lines represent the frets that are pressed down on each string. If the number on the line is zero, then that string is played without pressing down on a fret."/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Ukulele chords can also be represented with ukulele tab. In Tablafy ukulele chords are shown as numbers that are aligned vertically, directly above or below one another. Chords can also be represnted as the written abrieviations above the ukulele tab."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

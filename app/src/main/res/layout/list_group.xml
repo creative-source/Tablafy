@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/listHeader"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        tools:ignore="MissingPrefix"/>
+
+</LinearLayout>

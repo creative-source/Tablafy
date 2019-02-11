@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jantzapps.jantz.tablafy.GuitarFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:padding="14dp"
+        android:background="@color/colorPrimary"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        android:textColor="@color/colorPrimaryDark"
+        tools:ignore="MissingPrefix"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Piano Tab"/>
+    <TextView
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Piano tab is one of the lesser known forms of musical tablature. Unlike other forms of tab. Piano tab uses actual musical notes. Each line in piano tab represents an octave on the piano, while each letter on a line represents the note in the octave. Below is an overview of how piano tab is represented in Tablafy."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/piano_tab_demo1"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Standard piano tab is made up of horiontal lines much like other forms of tab. However, Piano tab can contain as many horizontal lines as octaves on a given piano. In Tablafy piano tab is based off of a 49 key piano. Therefore, it represents 4 octaves. At the beginning of each of these lines is a number that represents the octave relative to a full size piano. In Tablafy these octaves are, the second, the third, the fourth, and the fifth octave."/>
+            <ImageView
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/piano_tab_demo2"/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Along the horizontal lines are letters that represent the notes that are played in that lines octave."/>
+            <TextView
+                android:padding="14dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/LeagueSpartan-Bold.otf"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="MissingPrefix"
+                android:textStyle="bold"
+                android:text="Piano chords can also be represented with piano tab. In Tablafy piano chords are shown as letters that are grouped close together horizontally. Chords can also be represnted as the written abrieviations above the piano tab."/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

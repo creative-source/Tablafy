@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jantzapps.jantz.tablafy.ListenFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextSwitcher
+        android:background="@drawable/drawer_item_background"
+        android:layout_above="@+id/btnListen"
+        android:id="@+id/textSwitcher1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+
+        <ImageButton
+            android:background="@color/colorAccent"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="Listen"
+            android:id="@+id/btnListen"
+            android:src="@drawable/animation_list_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/llUpload"
+        android:clickable="true"
+        android:visibility="visible"
+        android:layout_below="@+id/btnListen"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:background="@drawable/custom_dark_dark_round_borders"
+        android:gravity="center"
+        android:text="Use Audio File"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        tools:ignore="MissingPrefix"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+    <TextSwitcher
+        android:layout_below="@+id/btnListen"
+        android:id="@+id/textSwitcher2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Cancel"
+        android:id="@+id/textCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fontPath="fonts/LeagueSpartan-Bold.otf"
+        tools:ignore="MissingPrefix"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+</RelativeLayout>
+
+</RelativeLayout>
