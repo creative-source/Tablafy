@@ -31,7 +31,6 @@ dependencies {
     implementation 'org.greenrobot:eventbus:3.0.0'
     implementation 'com.kbeanie:multipicker:1.1.31@aar'
     implementation 'jp.kshoji:jfugue-android:4.0.3:@aar'
-    implementation 'jp.kshoji:ble-midi:0.0.5:@aar'
     implementation 'com.ssomai:android.scalablelayout:2.1.6'
     implementation 'com.github.amigold.fundapter:library:1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
