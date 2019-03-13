@@ -23,10 +23,10 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation 'com.android.support:support-v4:25.3.1'
-    implementation 'com.android.support:support-v4:25.3.1'
-    implementation 'com.android.support:appcompat-v7:25.3.1'
-    implementation 'com.android.support:design:25.3.1'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
     implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
     implementation 'org.greenrobot:eventbus:3.0.0'
     implementation 'com.kbeanie:multipicker:1.1.31@aar'
