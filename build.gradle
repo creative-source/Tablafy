@@ -15,6 +15,8 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url 'https://github.com/kshoji/JFugue-for-Android/raw/master/jfugue-android/snapshot' }
+        maven { url 'https://github.com/kshoji/BLE-MIDI-for-Android/raw/master/library/repository' }
         jcenter()
         google()
     }
