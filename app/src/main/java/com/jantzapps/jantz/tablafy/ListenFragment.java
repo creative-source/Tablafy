@@ -310,7 +310,7 @@ public class ListenFragment extends Fragment {
                         @Override
                         public void run() {
                             AnalyzeMusic.analyzingMusic(processMethod,true);
-                            onRecord(true);
+//                            onRecord(true);
                         }
                     }, 1000);
                 } else {
@@ -330,7 +330,7 @@ public class ListenFragment extends Fragment {
                         @Override
                         public void run() {
                             AnalyzeMusic.analyzingMusic(processMethod,false);
-                            onRecord(false);
+//                            onRecord(false);
                             extractPeakListList();                                 // FIXME: 9/10/2017
                         }
                     },1500);
@@ -380,7 +380,7 @@ public class ListenFragment extends Fragment {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        onRecord(false);
+//                        onRecord(false);
                     }
                 },1000);
             }
