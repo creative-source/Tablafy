@@ -15,7 +15,6 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'https://github.com/kshoji/JFugue-for-Android/raw/master/jfugue-android/snapshot' }
         jcenter()
         google()
     }
